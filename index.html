@@ -870,6 +870,17 @@
       }
     }
 
+
+    .product-image {
+      margin-bottom:12px !important;
+    }
+
+    @media (max-width:640px) {
+      .product-image {
+        margin-bottom:12px !important;
+      }
+    }
+
   </style>
 </head>
 
@@ -1056,7 +1067,6 @@
       grid.innerHTML = selected.map(product => `
         <article class="product-card" data-category="${product.category}">
           <div class="product-image"><img loading="lazy" src="${product.img}" alt="${altText(product)}"></div>
-          <button class="quick-shop" onclick="openProduct('${product.ref}')">Ver detalhes</button>
           <div class="product-ref">Ref. ${product.ref}</div>
           <h3>${product.name}</h3>
           <div class="price">${product.price}</div>
