@@ -1,0 +1,15 @@
+Produto: Bolas Numeradas Importadas 54mm
+Referência: 2853
+
+Cole as fotos deste produto nesta pasta usando estes nomes:
+
+1.jpg  -> foto principal que aparece no catálogo
+2.jpg  -> segunda foto, aparece nos detalhes
+3.jpg  -> terceira foto, aparece nos detalhes
+4.jpg  -> quarta foto, aparece nos detalhes
+
+Importante:
+- Use exatamente estes nomes: 1.jpg, 2.jpg, 3.jpg, 4.jpg
+- Não use acentos, espaços ou nomes longos
+- A foto 1.jpg é a mais importante
+- Se tiver só 2 fotos, pode usar apenas 1.jpg e 2.jpg
