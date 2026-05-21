@@ -1136,22 +1136,24 @@
 
     function setFallbackImage(imgEl, product) {
       const isModal = imgEl.id === "modalMainImage";
+
       if (isModal) {
         imgEl.style.display = "none";
         const box = imgEl.closest(".modal-image");
+
         if (box && !box.querySelector(".image-placeholder")) {
           const placeholder = document.createElement("div");
           placeholder.className = "image-placeholder";
           placeholder.innerHTML = "Foto em atualização";
           box.appendChild(placeholder);
         }
+
         return;
       }
 
       if (product.fallbackImg && imgEl.src !== product.fallbackImg) {
         imgEl.src = product.fallbackImg;
       }
-    }
     }
 
     function productPhotos(product) {
