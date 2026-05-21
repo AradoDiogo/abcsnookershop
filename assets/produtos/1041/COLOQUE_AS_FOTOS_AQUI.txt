@@ -1,0 +1,8 @@
+Produto: Taco Inteiriço TP Simples
+Referência: 1041
+
+Use os nomes:
+1.jpg -> foto principal
+2.jpg -> segunda foto
+3.jpg -> terceira foto
+4.jpg -> quarta foto
